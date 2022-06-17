@@ -1,46 +1,43 @@
-# Getting Started with Create React App
+Level 1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+0.1
+ — "Пользователя" Верстка соответствует дизайну, визуально не ломается и результат верстки, удобен и приятен пользователю.
+— "Менеджера проекта" Верстка написанная разработчиком, не приносит проблем с (Клиентом, заказчиком) и выглядит визуально приятно.
+— "Дизайнера" Верстка соответствует макету.
+— "Верстальщика" Верстка должна быть написана понятно, структурированно, иногда иметь определенный паттерн. Конечно, хорошая верстка для верстальщика, включает в себя все описанные пункты всех точек зрения. Так как его забота, чтобы его работа была хороша на всех уровнях.
+— "Клиентского программиста" Верстка должна быть написана понятно, структурированно, иногда иметь определенный паттерн.
+— "Серверного программиста" Ему все равно)
 
-## Available Scripts
+0.2
+Чтобы улучшить гибкость верстки в случае изменения дизайна: Верстка должна быть написана понятно для других разработчиков, структурированно, иметь определенный паттерн.
 
-In the project directory, you can run:
+Для меня, самой большой особенностью были сотни файлов. Пока я не узнал о search-tools мне казалось это нереальным.
+В своих проектах я предпочитаю only scss, но на моем месте работы я использую AntDesign и scss
 
-### `npm start`
+0.3
+Адаптивная верстка, резиновая верстка, хорошо валидные стили для разных браузеров и устройств. Самый основной инструмент, это консоль разработчика.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+0.4
+В основном редактор кода VS Code.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+0.5
+Если у меня нет доступа к исходникам, то-есть я не могу влиять на код. Я пойму проблему на сайте и в консоли разработчика попробую внести изменения которые покажут проблему в коде. 
+Нет, я не сталкивался.
 
-### `npm test`
+0.6
+Если подобные элементы уже есть на сайте, скопирую их, если нет, исходя из цветов сайта сделаю их сам. Если в будущем дизайнер сочтет изменить дизайн, внесу правки.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+0.7
+ Google, YouTube, покупал два курса на udemy.
 
-### `npm run build`
+Мне больше нравится развиваться в сторону написания кода, не очень люблю верстать.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Я немного начал изучать backend на node.js.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+0.8
+Занимаюсь Frontend разработкой 1,5г
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Сайт с просмотром и поиском анимации: https://anijojo.online
+Основной стек: Next.js, React, Redux(Но я переписываю на Effector) TypeScript, Scss.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Небольшая тудушка: https://todos-anijojo.vercel.app
